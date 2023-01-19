@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipboard</title>
-    <link rel="stylesheet" href="/input.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet"/>
@@ -13,103 +12,161 @@
 </head>
 <body >
     <div class="flex flex-col">
-        <div class="flex flex-col bg-[url('/Images/bg-header-desktop.png')] pt-16 justify-center items-center bg-cover">
-            <!-- logo in hero section-->
-            <img src="/Images/logo.svg" class="mx-auto my-16">
-            <!-- main heading and text-->
+        <div class="flex flex-col bg-[url('/Images/bg-header-desktop.png')] pt-16 justify-center items-center bg-cover mb-20 px-5 md:px-0 mb-40">
             <div class="flex flex-col space-y-5 items-center">
-                <h3>A record of everything you copy</h3>
-                <p class="section-content mb-10 text-2xl">Clipboard allows you to track and organize everything you copy. 
+                <!-- logo in hero section-->
+                <img src="/Images/logo.svg" class="mx-auto my-16">
+                <!-- main heading and text-->
+                <h3 class="text-4xl font-bold text-darkGrayishBlue md:text-5xl text-center">A record of everything you copy</h3>
+                <p class="max-w-3xl mx-auto leading-9 text-2xl p-4 text-center text-gray-500">Clipboard allows you to track and organize everything you copy. 
                     Instantly access your clipboard on all your devices.</p>
-                <div class="flex flex-col md:space-x-3 justify-center md:flex-row items-center">
-                    <button class="font-thin text-sm text-white bg-green-300 p-2 px-4 rounded-full">Download for iOS</button>
-                    <button class="font-thin text-sm text-white bg-sky-300 p-2 px-4 rounded-full">Download for iOS</button>
+                <div class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4">
+                    <button class="p-4 px-8 rounded-full shadow-lg bg-[#26bba4] duration-200 hover:opacity-80">Download for iOS</button>
+                    <button class="p-4 px-8 rounded-full shadow-lg bg-sky-700 duration-200 hover:opacity-80">Download for iOS</button>
                 </div>
             </div>
         </div>
 
         <!-- Second heading and text-->
-        <div class="flex flex-col space-y-5 items-center">
-            <h1 class="text-2xl font-medium mt-20">Keep track of your snippets</h1>
-            <p class="text-sm font-thin text-center max-w-sm">Clipboard instantly store any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+        <div class="flex flex-col space-y-5 items-center mb-40 px-5">
+            <h3 class="text-4xl font-bold text-darkGrayishBlue md:text-5xl text-center">Keep track of your snippets</h3>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl p-4 text-center text-gray-500">Clipboard instantly store any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
         </div>
+
         <!-- Third PC pic and 3 properties on right-->
-        <div class="flex space-x-10 mt-20">
-            <img class="w-[50%]" src="/Images/image-computer.png">
-            <div class="flex flex-col">
-                <h4 class="text-2xl font-medium">Quick Search</h4>
-                <p class="text-sm font-thin max-w-sm">Easily search your snippets by content, category, web address, application, and more.</p>
-                <h4 class="text-2xl font-medium mt-10">iCloud Sync</h4>
-                <p class="text-sm font-thin max-w-sm">Instantly saves and syncs snippets accross all your devices.</p>
-                <h4 class="text-2xl font-medium mt-10">Completely History</h4>
-                <p class="text-sm font-thin max-w-sm">Retrieve any snippets from the first moment you started using the app.</p>
+        <div class="text-center px-10 mb-40">
+            <div class="relative flex flex-col md:flex-row md:space-x-32">
+                <div class="md:w-1/2">
+                    <img class="md:absolute top-0 right-[50%]" src="/Images/image-computer.png">
+                </div>
+                <div class="flex flex-col mt-16 mb-24 space-y-5 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16">
+                    <h4 class="text-2xl font-medium">Quick Search</h4>
+                    <p class="max-w-md text-gray-500">Easily search your snippets by content, category, web address, application, and more.</p>
+                    <h4 class="text-2xl font-medium mt-10">iCloud Sync</h4>
+                    <p class="max-w-md text-gray-500">Instantly saves and syncs snippets accross all your devices.</p>
+                    <h4 class="text-2xl font-medium mt-10">Completely History</h4>
+                    <p class="max-w-md text-gray-500">Retrieve any snippets from the first moment you started using the app.</p>
+                </div>
             </div>
         </div>
+
         <!---->
-        <div class="flex flex-col space-y-5 items-center">
-            <h1 class="text-2xl font-medium mt-20">Access Clipboard anywhere</h1>
-            <p class="text-sm font-thin text-center max-w-sm">Whether you are on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+        <div class="flex flex-col space-y-5 items-center px-5 mb-40">
+            <h1 class="text-4xl font-bold text-darkGrayishBlue md:text-5xl text-center">Access Clipboard anywhere</h1>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl p-4 text-center text-gray-500">Whether you are on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
         </div>
 
          <!---->
-        <div class="flex flex-col space-y-5 items-center">
+        <div class="flex flex-col items-center mb-40 px-5">
             <img src="images/image-devices.png">
         </div>
 
         <!---->
-        <div class="flex flex-col space-y-5 items-center">
-            <h1 class="text-2xl font-medium">Supercharge your workflow</h1>
-            <p class="text-sm font-thin text-center max-w-sm">We have got the tools to boost your productivity.</p>
+        <div class="flex flex-col space-y-5 items-center px-5">
+            <h1 class="text-4xl font-bold text-darkGrayishBlue md:text-5xl text-center">Supercharge your workflow</h1>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl p-4 text-center text-gray-500">We have got the tools to boost your productivity.</p>
         </div>
 
         <!-- 3 features -->
-        <div class="flex flex-col items-center mt-20 md:flex-row ">
-            <div class="flex flex-col space-y-5 items-center">
-                <img src="/Images/icon-blacklist.svg" class="w-14" alt="">
-                <h4 class="font-medium">Create blacklists</h4>
-                <p class="text-xs font-thin text-center max-w-sm">Easily search your snippets by content, category, web address, application, and more.</p>
+        <div class="flex flex-col text-center mt-10 md:flex-row justify-center px-5 space-y-10 md:space-y-0">
+            <div class="flex flex-col space-y-5 items-center p-4">
+                <img src="/Images/icon-blacklist.svg" class="mb-2 h-10">
+                <h4 class="mb-2 text-2xl font-bold">Create blacklists</h4>
+                <p class="max-w-xs text-gray-500">Easily search your snippets by content, category, web address, application, and more.</p>
             </div>
-            <div class="flex flex-col space-y-5 items-center">
-                <img src="/Images/icon-text.svg" class="w-14" alt="">
-                <h4 class="font-medium">Plain text snippets</h4>
-                <p class="text-xs font-thin text-center max-w-sm">Remove unwanted formatting from copied text for a consistent look.</p>
+            <div class="flex flex-col space-y-5 items-center p-4">
+                <img src="/Images/icon-text.svg" class="mb-2 h-10">
+                <h4 class="mb-2 text-2xl font-bold">Plain text snippets</h4>
+                <p class="max-w-xs text-gray-500">Remove unwanted formatting from copied text for a consistent look.</p>
             </div>
-            <div class="flex flex-col space-y-5 items-center">
-                <img src="/Images/icon-preview.svg" class="w-14" alt="">
-                <h4 class="font-medium">Sneak preview</h4>
-                <p class="text-xs font-thin text-center max-w-sm">Quick preview of all anippets on your Clipboard for easy access.</p>
+            <div class="flex flex-col space-y-5 items-center p-4">
+                <img src="/Images/icon-preview.svg" class="mb-2 h-10">
+                <h4 class="mb-2 text-2xl font-bold">Sneak preview</h4>
+                <p class="max-w-xs text-gray-500">Quick preview of all anippets on your Clipboard for easy access.</p>
             </div>            
         </div>
 
         <!-- Comapnies -->
-        <div class="flex flex-col items-center mt-20 md:flex-row space-y-10 md:space-x-10 justify-center md:space-y-0">
-            <img src="/images/logo-google.png" class="w-20" alt="">
-            <img src="/Images/logo-ibm.png" class="w-20" alt="">
-            <img src="/Images/logo-microsoft.png" class="w-20" alt="">
-            <img src="/Images/logo-hp.png" class="w-20" alt="">
-            <img src="/Images/logo-vector-graphics.png" class="w-20" alt="">
+        <div class="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0 w-[100%]">
+            <img src="/images/logo-google.png" class="" alt="">
+            <img src="/Images/logo-ibm.png" class="" alt="">
+            <img src="/Images/logo-microsoft.png" class="" alt="">
+            <img src="/Images/logo-hp.png" class="" alt="">
+            <img src="/Images/logo-vector-graphics.png" class="" alt="">
         </div>
 
         <!-- bottom download-->
-        <div class="flex flex-col space-y-5 items-center mt-20">
-            <h1 class="text-2xl font-medium">Clipboard for iOS and Mac OS</h1>
-            <p class="text-s font-thin text-center max-w-md">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you are ready to start adding to your clipboard.</p>
-            <div class="flex flex-col md:space-x-3 justify-center md:flex-row items-center">
-                <button class="font-thin text-sm text-white bg-green-300 p-2 px-4 rounded-full">Download for iOS</button>
-                <button class="font-thin text-sm text-white bg-sky-300 p-2 px-4 rounded-full">Download for iOS</button>
+        <div class="flex flex-col space-y-5 items-center mt-20 px-5">
+            <h1 class="text-4xl font-bold text-darkGrayishBlue md:text-5xl text-center">Clipboard for iOS and Mac OS</h1>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl p-4 text-center text-gray-500">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you are ready to start adding to your clipboard.</p>
+            <div class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4">
+                <button class="p-4 px-8 rounded-full shadow-lg bg-[#26bba4] duration-200 hover:opacity-80">Download for iOS</button>
+                <button class="p-4 px-8 rounded-full shadow-lg bg-sky-700 duration-200 hover:opacity-80">Download for iOS</button>
             </div>
         </div>
         
         <!-- Footer -->
-        <div class="flex flex-col space-y-5 items-center mt-20 justify-between p-20 md:flex-row md:space-y-0">
-            <img src="/Images/logo.svg" class="w-5">
-            <div class="flex space-x-8">
-                <img src="/Images/icon-facebook.svg">
-                <img src="/Images/icon-instagram.svg">
-                <img src="/Images/icon-twitter.svg">
+        <footer class="bg-gray-50 mt-20">
+            <div class="max-w-6xl mx-auto text-center px-10">
+              <div class="flex flex-col items-center justify-between md:flex-row">
+                <!-- Image -->
+                <img src="images/logo.svg" alt="" class="scale-50" />
+                <!-- Container for Menus & Social -->
+                <div
+                  class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+                >
+                  <!-- Menus -->
+                  <div
+                    class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
+                  >
+                    <!-- Menu 1 -->
+                    <div class="flex flex-col space-y-4 text-center md:text-left">
+                      <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
+                      <div>
+                        <a href="#" class="hover:text-strongCyan">Contact Us</a>
+                      </div>
+                    </div>
+                    <!-- Menu 2 -->
+                    <div class="flex flex-col space-y-4 text-center md:text-left">
+                      <div>
+                        <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
+                      </div>
+                      <div>
+                        <a href="#" class="hover:text-strongCyan">Press Kit</a>
+                      </div>
+                    </div>
+                    <!-- Menu 3 -->
+                    <div class="flex flex-col space-y-4 text-center md:text-left">
+                      <div>
+                        <a href="#" class="hover:text-strongCyan">Install Guide</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Social Icons -->
+                  <div class="flex justify-between w-32 py-1">
+                    <a href="#"
+                      ><img
+                        src="images/icon-facebook.svg"
+                        alt=""
+                        class="duration-200 ficon"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="images/icon-twitter.svg"
+                        alt=""
+                        class="duration-200 ficon"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src="images/icon-instagram.svg"
+                        alt=""
+                        class="duration-200 ficon"
+                    /></a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        
+          </footer>
     </div>
 </body>
 </html>  
